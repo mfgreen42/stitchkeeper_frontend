@@ -1,0 +1,90 @@
+.dash-grid {
+  display: grid;
+  grid-template-columns: 500px auto 600px;
+  grid-template-rows: auto; 
+  gap:2rem;
+  padding-bottom: 5rem;
+  grid-template-areas:
+    "content-one content-one dash-img"
+    "dash-buttons dash-buttons dash-img"
+    "bar-chart bar-chart dash-img";
+}
+.content-one {
+    grid-area: content-one;
+    justify-self: center;
+    margin-left: 5rem;
+    font-size: 2.5rem;
+    color: var(--russet);
+}
+
+.dashboard-buttons {
+    width: 15rem;
+    height: 7rem;
+    
+}
+
+.dash-buttons {
+    grid-area: dash-buttons;
+    justify-self: center;
+    margin-left: 8rem;
+    
+
+}
+.actual-img {
+    border-radius: 8px;
+    max-width: 100%;
+    padding-right: 2rem;
+
+}
+
+.dash-img {
+    grid-area: dash-img;
+    justify-self: center;
+}
+.bar-chart {
+    grid-area: bar-chart;
+    justify-self: left;
+    margin-left: 15rem;
+    width: 55rem    
+
+}
+
+.graph-h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.react-calendar-heatmap {
+    width: 60rem;
+    
+}
+
+.react-calendar-heatmap-all-weeks {
+    width: 55rem;
+}
+
+.react-calendar-heatmap-month-labels {
+  margin: 10px;
+}
+
+.react-calendar-heatmap-weekday-label {
+    font-size: 15px;
+}
+
+.react-calendar-heatmap .color-empty {
+  fill: rgb(209, 180, 123);
+}
+
+.react-calendar-heatmap .color-scale-1 {
+  fill: #d19313ff;
+}
+.react-calendar-heatmap .color-scale-2 {
+  fill: rgb(160, 111, 14);
+}
+.react-calendar-heatmap .color-scale-3 {
+  fill: rgb(114, 79, 10);
+}
+.react-calendar-heatmap .color-scale-4 {
+  fill: rgb(85, 59, 7);
+}

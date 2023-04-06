@@ -1,0 +1,58 @@
+
+h2 {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.my-pattern-bar {
+    display: flex;
+    justify-content: flex-start;
+    height: 7rem
+}
+
+.heart {
+    width: 6rem;
+    height: 6rem;
+}
+
+
+
+.table-container {
+    display: flex;
+    gap: 2rem;
+}
+
+table {
+    margin-right: 2rem;
+    width: 65%;
+    border: 2px dashed;
+    border-color: var(--russet);
+
+}
+
+td {
+    text-align: center;
+}
+
+th, td {
+    border-collapse: collapse;
+    
+
+}
+
+.table-img {
+    height: 50px;
+    width: 50px;
+}
+
+.delete-button {
+    background-color: var(--carmine);
+    width: 8rem;
+    font-size: medium;
+
+}
+
+.delete-button:hover {
+    background-color: rgb(112, 7, 26);
+
+}

@@ -1,0 +1,38 @@
+.addpattern-form {
+    display: flex;
+    height: 100%;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.pattern-list {
+    list-style-type: none;
+    margin-bottom: 9rem;
+    margin-top: 6rem;
+}
+
+.addpattern-label {
+    font-size: x-large;
+}
+
+.addpattern-input {
+    display: grid;
+    margin-left: 5rem;
+    width: 500px;
+    height: 35px;
+}
+
+.checkbox-label {
+    font-size: x-large;
+    padding-right: 2rem;
+}
+
+.checkbox-input {
+    transform: scale(1.5);
+    margin-right: 1rem;
+}
+
+.addpattern-button {
+    margin-top: 4rem;
+    width: 10rem;
+}

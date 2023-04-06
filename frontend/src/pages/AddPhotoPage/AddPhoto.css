@@ -1,0 +1,60 @@
+.addPhoto-form {
+  display: flex;
+  height: 100%;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.form-size {
+  margin-top: 1rem;
+}
+
+.p-photo {
+  margin-left: 3.1rem;
+  margin-bottom: 1rem;
+}
+
+.photo-list {
+  list-style-type: none;
+  margin-bottom: 9rem;
+  margin-top: 6rem;
+}
+
+.addphoto-label {
+  font-size: x-large;
+}
+
+.addphoto-input {
+  display: grid;
+  margin-left: 5rem;
+  width: 300px;
+  height: 30px;
+  margin-top: .5rem;
+}
+
+.checkbox-label-photo {
+  font-size: x-large;
+  padding-right: 2rem;
+}
+    
+.checkbox-input-photo {
+  transform: scale(1.5);
+  margin-right: 1rem;
+  margin-top: .5rem;
+}
+
+.addphoto-button {
+  margin-top: 4rem;
+  width: 10rem;
+}
+
+.mountains-container {
+  width: 525px; 
+  height: 610px; 
+  overflow: hidden; 
+}
+
+.mountains-container img {
+  width: 100%; 
+  height: auto; 
+}

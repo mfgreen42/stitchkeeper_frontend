@@ -1,0 +1,54 @@
+
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.navBar {
+  background: rgb(255, 255, 255);
+  margin-bottom: .50rem;
+  padding: 0rem 2rem;
+}
+
+a.navbar-title {
+  color: #8B5D6Dff;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+hr {
+  margin-top: 1rem;
+  border-top: 3px dashed var(--carmine);
+}
+
+button {
+  margin-top: 1rem;
+  margin-right: 2.5rem;
+  width: 8rem;
+  font-size: x-large;
+  padding: .5rem;
+  background: var(--rose-taupe);
+  border: 2px solid rgb(133, 87, 103);
+  box-shadow: 2px 2px 5px #8B5D6Dff; 
+  color: white;
+}
+
+button:hover {
+  background: rgb(129, 87, 102);
+  color: white;
+  cursor: pointer;
+}
+
+.brand {
+  cursor: pointer;
+  font-size: 3rem;
+  margin-left: 3rem;
+
+}
